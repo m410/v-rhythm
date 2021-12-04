@@ -16,6 +16,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "rhythm": [
+        "dist/rhythm/rhythm",
+        "dist/rhythm"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
