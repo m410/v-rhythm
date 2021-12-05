@@ -4,6 +4,7 @@ import { MaskComponent } from './mask/mask.component';
 import { ControlComponent } from './control/control.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {CommonModule} from "@angular/common";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 
@@ -15,6 +16,7 @@ import {CommonModule} from "@angular/common";
   ],
   imports: [
     CommonModule,
+    BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
   ],

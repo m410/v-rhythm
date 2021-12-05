@@ -1,6 +1,8 @@
 <rhythm-control (display)="changeState($event)"></rhythm-control>
-<div *ngIf="maskOn" class="mask" @fadeInOut>
-  <div class="container">
-    <div class="rhythm"></div>
-  </div>
+<div *ngIf="maskOn" class="mask" [@fadeInOut] #mask>
+    <div class="container rhythm">
+      <div class="row beat-box">
+        <div *ngFor="let x of y" class="col beat"></div>
+      </div>
+    </div>
 </div>
