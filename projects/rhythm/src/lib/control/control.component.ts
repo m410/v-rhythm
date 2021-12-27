@@ -11,8 +11,7 @@ export class ControlComponent implements OnInit {
   @Output()
   display = new EventEmitter<boolean>();
 
-  on = true;
-  padding = '1rem';
+  on = false;
 
   form = new FormGroup({
     on: new FormControl([true])
